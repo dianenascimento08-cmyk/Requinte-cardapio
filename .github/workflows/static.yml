@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Requinte Pães e Tortas</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #fdf6ec;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #8B4513;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    header img {
+      height: 120px;
+    }
+    h1 {
+      font-size: 28px;
+      margin: 10px 0;
+    }
+    header p {
+      font-size: 18px;
+      font-style: italic;
+      color: #FFD700;
+    }
+    h2 {
+      font-size: 26px;
+      color: #8B4513;
+      margin-top: 30px;
+      text-align: center;
+    }
+    .card {
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      margin: 15px auto;
+      padding: 15px;
+      max-width: 600px;
+      font-size: 20px;
+    }
+    .price {
+      color: #8B4513;
+      font-weight: bold;
+    }
+    footer {
+      background-color: #8B4513;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+      font-size: 18px;
+    }
+    footer a {
+      color: #FFD700;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+  <img src="Screenshot_20260225_131804_Files by Google.jpg" alt="Logo Requinte Pães e Tortas">
+  <h1>Requinte Pães e Tortas</h1>
+  <p>Apaixonados por pão</p>
+</header>
+
+  <!-- Café da Manhã -->
+  <section id="cafe">
+    <h2>Café da Manhã</h2>
+    <div class="card"><strong>Café c/ leite</strong><br><span class="price">R$ 6,00</span></div>
+    <div class="card"><strong>Café c/ leite (xícara grande)</strong><br><span class="price">R$ 8,00</span></div>
+    <div class="card"><strong>Nescau quente</strong><br><span class="price">R$ 10,00</span></div>
+    <div class="card"><strong>Nescau gelado</strong><br><span class="price">R$ 10,00</span></div>
+    <div class="card"><strong>Chá</strong><br><span class="price">R$ 5,00</span></div>
+    <div class="card"><strong>Pão c/ manteiga</strong><br><span class="price">R$ 3,00</span></div>
+    <div class="card"><strong>Pão c/ ovo</strong><br><span class="price">R$ 4,00</span></div>
+    <div class="card"><strong>Pão c/ queijo e ovo</strong><br><span class="price">R$ 8,00</span></div>
+    <div class="card"><strong>Pão com tucumã</strong><br><span class="price">R$ 15,00</span></div>
+  </section>
+
+  <!-- X-Lanches Regionais -->
+  <section id="xlanches">
+    <h2>X-Lanches Regionais</h2>
+    <div class="card"><strong>X-Tucumã</strong> (pão, queijo e tucumã)<br><span class="price">R$ 18,00</span></div>
+    <div class="card"><strong>X-Caboquinho</strong> (pão, queijo, tucumã e banana)<br><span class="price">R$ 23,00</span></div>
+    <div class="card"><strong>X-Caboquinho Especial</strong> (pão, queijo, tucumã, ovo e banana frita)<br><span class="price">R$ 26,00</span></div>
+    <div class="card"><strong>X-Cabocão</strong> (pão, queijo, tucumã, presunto, ovo e banana frita)<br><span class="price">R$ 26,00</span></div>
+    <div class="card"><strong>X-Cunhantã</strong> (pão, queijo, tucumã, banana frita e castanha)<br><span class="price">R$ 25,00</span></div>
+  </section>
+
+  <!-- Misto & Sanduíches -->
+  <section id="misto">
+    <h2>Misto & Sanduíches</h2>
+    <div class="card"><strong>Misto</strong> (pão de forma/francês, queijo e presunto)<br><span class="price">R$ 8,00</span></div>
+    <div class="card"><strong>Misto com mortadela</strong><br><span class="price">R$ 8,00</span></div>
+    <div class="card"><strong>Mistão</strong> (queijo, presunto e ovo)<br><span class="price">R$ 10,00</span></div>
+    <div class="card"><strong>Sanduíche natural</strong> (presunto de peru e queijo)<br><span class="price">R$ 10,00</span></div>
+  </section>
+
+  <!-- Regionais -->
+  <section id="regionais">
+    <h2>Regionais</h2>
+    <div class="card"><strong>Pamonha</strong><br><span class="price">R$ 11,00</span></div>
+    <div class="card"><strong>Farofa</strong><br><span class="price">R$ 14,00</span></div>
+    <div class="card"><strong>Cuscuz de tapioca</strong><br><span class="price">R$ 45,00</span></div>
+    <div class="card"><strong>Cuscuz de tapioca (com ganache)</strong><br><span class="price">R$ 58,00</span></div>
+    <div class="card"><strong>Cuscuz</strong><br><span class="price">R$ 5,00</span></div>
+    <div class="card"><strong>Cuscuz com coco</strong><br><span class="price">R$ 8,00</span></div>
+    <div class="card"><strong>Cuscuz especial (queijo e castanha)</strong><br><span class="price">R$ 10,00</span></div>
+    <div class="card"><strong>Cuscuz com pernil</strong><br><span class="price">R$ 15,00</span></div>
+    <div class="card"><strong>Cuscuz com queijo coalho</strong><br><span class="price">R$ 8,00</span></div>
+    <div class="card"><strong>Adicionais</strong>: Carne de hambúrguer R$ 3,00 | Presunto R$ 3,00 | Queijo R$ 3,00 | Ovo R$ 2,00</div>
+    <div class="card"><strong>Ovos & Tapioca</strong>: Omelete R$ 13,00 | Crepioca simples R$ 7,00 | Crepioca mista R$ 13,00 | Crepioca c/ queijo e banana R$ 16,00</div>
+  </section>
+
+  <!-- Mingaus & Doces -->
+  <section id="mingaus">
+    <h2>Mingaus & Doces</h2>
+    <div class="card"><strong>Mingau de banana</strong><br><span class="price">R$ 7,00</span></div>
+    <div class="card"><strong>Mingau de munguzá</strong><br><span class="price">R$ 7,00</span></div>
+    <div class="card"><strong>Canjica</strong><br><span class="price">R$ 7,00</span></div>
+    <div class="card"><strong>Bolinho podre</strong><br><span class="price">R$ 3,00</span></div>
+    <div class="card"><strong>Bolinho de chuva</strong><br><span class="price">R$ 2,00</span></div>
+    <div class="card"><strong>Banana frita (kg)</strong><br><span class="price">R$ 58,00</span></div>
+  </section>
+
+<section id="bolos">
+    <h2>Bolos & Buffet</h2>
+    <div class="card"><strong>Buffet de bolo regional - KG</strong><br><span class="price">R$ 45,00</span></div>
+    <div class="card"><strong>Buffet de tortas finas - KG</strong><br><span class="price">R$ 80,00</span></div>
+    <div class="card"><strong>Buffet de torta salgada - KG</strong><br><span class="price">R$ 80,00</span></div>
+  </section>
+
+  <section id="salgados">
+    <h2>Salgados</h2>
+    <div class="card"><strong>Mini Salgadinhos (Kg)</strong><br><span class="price">R$ 65,00</span></div>
+    <div class="card"><strong>Salgadinhos fritos (100 unid.)</strong><br><span class="price">R$ 85,00</span></div>
+    <div class="card"><strong>Salgadinhos assados (100 unid.)</strong><br><span class="price">R$ 250,00</span></div>
+  </section>
+
+  <section id="doces">
+    <h2>Doces</h2>
+    <div class="card"><strong>Bolo de chocolate especial - KG</strong><br><span class="price">R$ 69,00</span></div>
+    <div class="card"><strong>Queijadinha</strong><br><span class="price">R$ 5,00</span></div>
+    <div class="card"><strong>Quindim</strong><br><span class="price">R$ 5,00</span></div>
+    <div class="card"><strong>Sonho tradicional</strong><br><span class="price">R$ 6,00</span></div>
+  </section>
+
+  <section id="salgados-gourmet">
+    <h2>Salgados Gourmet</h2>
+    <div class="card"><strong>Croissant Nordestino</strong><br><span class="price">R$ 18,00</span></div>
+    <div class="card"><strong>Croissant ao molho bechamel com frios</strong><br><span class="price">R$ 15,00</span></div>
+    <div class="card"><strong>Croissant c/ Nutella</strong><br><span class="price">R$ 18,00</span></div>
+    <div class="card"><strong>Croissant c/ Pernil ao molho da cachaça</strong><br><span class="price">R$ 22,00</span></div>
+    <div class="card"><strong>Pastel folhado c/ Chocolate</strong><br><span class="price">R$ 12,00</span></div>
+    <div class="card"><strong>Mil Folhas c/ Ganache</strong><br><span class="price">R$ 12,00</span></div>
+    <div class="card"><strong>Pastel Folhado c/ Catupiry</strong><br><span class="price">R$ 12,00</span></div>
+  </section>
+
+  <section id="salgados-fritos-especial">
+    <h2>Salgados Fritos Especial</h2>
+    <div class="card"><strong>Coxinha de frango c/ Catupiry</strong><br><span class="price">R$ 10,00</span></div>
+    <div class="card"><strong>Coxinha de frios</strong><br><span class="price">R$ 10,00</span></div>
+    <div class="card"><strong>Coxinha de pernil</strong><br><span class="price">R$ 10,00</span></div>
+    <div class="card"><strong>Risoles de Camarão</strong><br><span class="price">R$ 10,00</span></div>
+    <div class="card"><strong>Risoles de frios e Catupiry</strong><br><span class="price">R$ 10,00</span></div>
+    <div class="card"><strong>Kibe c/ Catupiry</strong><br><span class="price">R$ 10,00</span></div>
+    <div class="card"><strong>Salgado Boliviano</strong><br><span class="price">R$ 10,00</span></div>
+    <div class="card"><strong>Trouxinha frango e Catupiry</strong><br><span class="price">R$ 10,00</span></div>
+  </section>
+
+  <section id="salgados-fritos-tradicional">
+    <h2>Salgados Fritos Tradicional</h2>
+    <div class="card"><strong>Coxinha, Croquete, Ovo coberto, Enrolado de salsicha, Esfirra de frango, Esfirra de carne</strong><br><span class="price">R$ 8,00</span></div>
+    <h2>Salgados Folhados</h2>
+    <div class="card"><strong>Pastel folhado queijo</strong><br><span class="price">R$ 8,00</span></div>
+    <div class="card"><strong>Pastel folhado misto</strong><br><span class="price">R$ 8,00</span></div>
+    <h2>Salgados Semi Folhados</h2>
+    <div class="card"><strong>Croissant queijo</strong><br><span class="price">R$ 10,00</span></div>
+    <div class="card"><strong>Croissant misto</strong><br><span class="price">R$ 10,00</span></div>
+    <div class="card"><strong>Esfirra de frango</strong><br><span class="price">R$ 10,00</span></div>
+    <div class="card"><strong>Trouxinha de frango</strong><br><span class="price">R$ 10,00</span></div>
+    <div class="card"><strong>Kikão de forno c/ Molho rose</strong><br><span class="price">R$ 10,00</span></div>
+    <div class="card"><strong>X-Burguer</strong><br><span class="price">R$ 10,00</span></div>
+  </section>
+
+  <section id="tortinhas">
+    <h2>Tortinhas</h2>
+    <div class="card"><strong>Tartelete de limão</strong><br><span class="price">R$ 9,00</span></div>
+    <div class="card"><strong>Tartelete de morango</strong><br><span class="price">R$ 9,00</span></div>
+    <div class="card"><strong>Tartelete de pêssego</strong><br><span class="price">R$ 9,00</span></div>
+    <div class="card"><strong>Tartelete de banana e creme baunilha</strong><br><span class="price">R$ 9,00</span></div>
+    <h2>Frutas Regionais</h2>
+    <div class="card"><strong>Fruta regional para café da manhã - KG (batata, macaxeira, cará)</strong><br><span class="price">R$ 25,00</span></div>
+    <div class="card"><strong>Vitaminada</strong><br><span class="price">R$ 10,00</span></div>
+  </section>
+
+  <section id="tapiocas">
+    <h2>Tapiocas</h2>
+    <div class="card"><strong>Tapioca simples</strong><br><span class="price">R$ 5,00</span></div>
+    <div class="card"><strong>Tapioca c/ tucumã</strong><br><span class="price">R$ 17,00</span></div>
+    <div class="card"><strong>Tapioca c/ queijo mussarela</strong><br><span class="price">R$ 8,00</span></div>
+    <div class="card"><strong>Tapioca c/ requeijão</strong><br><span class="price">R$ 7,00</span></div>
+    <div class="card"><strong>Tapioca c/ queijo coalho</strong><br><span class="price">R$ 9,00</span></div>
+    <div class="card"><strong>Tapioca c/ queijo e ovo</strong><br><span class="price">R$ 10,00</span></div>
+    <div class="card"><strong>Tapioca c/ castanha</strong><br><span class="price">R$ 10,00</span></div>
+    <div class="card"><strong>Tapioca c/ castanha e queijo</strong><br><span class="price">R$ 12,00</span></div>
+    <div class="card"><strong>Tapioca mista (queijo e presunto)</strong><br><span class="price">R$ 12,00</span></div>
+    <div class="card"><strong>Tapioca c/ queijo e tucumã</strong><br><span class="price">R$ 22,00</span></div>
+    <div class="card"><strong>Tapioca c/ queijo e banana</strong><br><span class="price">R$ 13,00</span></div>
+    <div class="card"><strong>Tapioca c/ tucumã e banana</strong><br><span class="price">R$ 20,00</span></div>
+    <div class="card"><strong>Tapioca caboquinha</strong><br><span class="price">R$ 25,00</span></div>
+    <div class="card"><strong>Tapioca cabocão</strong><br><span class="price">R$ 29,00</span></div>
+    <div class="card"><strong>Tapioca c/ carne de sol</strong><br><span class="price">R$ 20,00</span></div>
+  </section>
+
+  <section id="sanduiches">
+    <h2>Sanduíches</h2>
+    <div class="card"><strong>Sanduíche de pernil assado</strong> (pão francês, pernil assado, queijo, alface e tomate)<br><span class="price">R$ 23,00</span></div>
+    <div class="card"><strong>Sanduíche de pernil ao molho da cachaça</strong> (pão francês, pernil ao molho da cachaça c/ pimenta, alface e tomate)<br><span class="price">R$ 23,00</span></div>
+    <div class="card"><strong>Beirute tradicional</strong><br><span class="price">R$ 15,00</span></div>
+    <div class="card"><strong>Beirute na chapa</strong><br><span class="price">R$ 15,00</span></div>
+    <div class="card"><strong>X-Burguer</strong> (pão bola, hambúrguer, queijo, alface e tomate)<br><span class="price">R$ 10,00</span></div>
+    <div class="card"><strong>X-Salada</strong> (pão bola, hambúrguer, ovo, queijo, presunto, alface e tomate)<br><span class="price">R$ 15,00</span></div>
+    <div class="card"><strong>X-Bacon</strong> (pão bola, hambúrguer, bacon, queijo, presunto, alface e tomate)<br><span class="price">R$ 20,00</span></div>
+    <div class="card"><strong>X-Salada especial</strong> (pão bola, 2 hambúrgueres, ovo, queijo, presunto, alface e tomate)<br><span class="price">R$ 20,00</span></div>
+    <div class="card"><strong>X-Tudo</strong> (pão bola, hambúrguer, ovo, queijo, presunto, calabresa, salsicha, bacon, alface e tomate)<br><span class="price">R$ 25,00</span></div>
+    <div class="card"><strong>X-Calabresa</strong> (pão bola, calabresa, ovo, queijo, alface e tomate)<br><span class="price">R$ 15,00</span></div>
+    <div class="card"><strong>X-Mortadela</strong><br><span class="price">R$ 10,00</span></div>
+  </section>
+
+  <section id="sucos-naturais">
+    <h2>Sucos Naturais</h2>
+    <div class="card"><strong>Suco de Goiaba</strong><br><span class="price">R$ 10,00</span></div>
+    <div class="card"><strong>Suco de Acerola</strong><br><span class="price">R$ 10,00</span></div>
+    <div class="card"><strong>Suco de Manga</strong><br><span class="price">R$ 10,00</span></div>
+    <div class="card"><strong>Suco de Abacaxi (com hortelã)</strong><br><span class="price">R$ 10,00</span></div>
+    <div class="card"><strong>Suco de Morango</strong><br><span class="price">R$ 13,00</span></div>
+    <div class="card"><strong>Suco de Cupuaçu</strong><br><span class="price">R$ 10,00</span></div>
+    <div class="card"><strong>Suco de Graviola</strong><br><span class="price">R$ 13,00</span></div>
+    <div class="card"><strong>Suco de Maracujá</strong><br><span class="price">R$ 13,00</span></div>
+    <div class="card"><strong>Limonada Suíça</strong><br><span class="price">R$ 10,00</span></div>
+  </section>
+
+  <section id="sucos-industrializados">
+    <h2>Sucos Industrializados</h2>
+    <div class="card"><strong>Suco Del Valle (lata)</strong><br><span class="price">R$ 5,00</span></div>
+    <div class="card"><strong>Suco Del Valle (1 litro)</strong><br><span class="price">R$ 6,00</span></div>
+    <div class="card"><strong>Suco Prats Uva 350 ml</strong><br><span class="price">R$ 7,50</span></div>
+    <div class="card"><strong>Suco Prats Uva 1 litro</strong><br><span class="price">R$ 13,50</span></div>
+    <div class="card"><strong>Suco Prats Laranja 1 litro</strong><br><span class="price">R$ 8,00</span></div>
+    <div class="card"><strong>Suco Kapo</strong><br><span class="price">R$ 20,00</span></div>
+    <div class="card"><strong>Toddynho</strong><br><span class="price">R$ 17,25</span></div>
+  </section>
+
+  <section id="bebidas">
+    <h2>Águas & Refrigerantes</h2>
+    <div class="card"><strong>Água mineral 350 ml</strong><br><span class="price">R$ 2,00</span></div>
+    <div class="card"><strong>Água de coco</strong><br><span class="price">R$ 3,00</span></div>
+    <div class="card"><strong>Refrigerante lata 350 ml</strong><br><span class="price">R$ 5,00</span></div>
+    <div class="card"><strong>Refrigerante lata 310 ml</strong><br><span class="price">R$ 4,00</span></div>
+    <div class="card"><strong>Refrigerante PET 600 ml</strong><br><span class="price">R$ 5,50</span></div>
+    <div class="card"><strong>Refrigerante PET 1 litro (Coca-Cola)</strong><br><span class="price">R$ 13,50</span></div>
+    <div class="card"><strong>Refrigerante KS 290 ml</strong><br><span class="price">R$ 8,00</span></div>
+  </section>
+
+  <section id="cestas">
+    <h2>Cestas de Café da Manhã</h2>
+    <div class="card">
+      <strong>Cesta Simples</strong><br>
+      Inclui pães, frutas, suco e café<br>
+      <span class="price">R$ 50,00</span>
+    </div>
+    <div class="card">
+      <strong>Cesta Especial</strong><br>
+      Inclui pães, bolos, frutas, suco, café e frios<br>
+      <span class="price">R$ 80,00</span>
+    </div>
+  </section>
+
+  <footer>
+    <p><strong>Requinte Pães e Tortas</strong></p>
+    <p>
+      Endereço: <a href="https://maps.app.goo.gl/H7jjXCzzWrAhpFqDA?g_st=ac" target="_blank">
+        Ver no Google Maps
+      </a>
+    </p>
+    <p>
+      Horário de funcionamento:<br>
+      Segunda a Sábado: 6h às 21h<br>
+      Domingo: 6h às 13h
+    </p>
+    <p>
+      Delivery: (92) 98527-9030<br>
+      Encomendas / Coffee Break's: (92) 99222-10404
+    </p>
+    <p>
+      Instagram: <a href="https://www.instagram.com/requinte.paesetortas" target="_blank">@requinte.paesetortas</a><br>
+      E-mail: <a href="mailto:requintepaesetortas@hotemail.com">requintepaesetortas@hotemail.com</a>
+    </p>
+  </footer>
+
+</body>
+</html>
